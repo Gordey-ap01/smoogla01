@@ -42,65 +42,12 @@ body {
      * to improve page load speed on mobile internet connections */
     background-image: url(../img/nbg1.jpeg);
   }
-   
-   header{
-  margin-top: 2px;
-  display: flex;
-  justify-content: center;
-}
-
-.top_menu li{
-  margin-right: 5px;
-  vertical-align: middle;
-
-  margin: 0 auto;
-
-  display: inline-block;
-}
-.top_menu a{
-  margin-right: 5px;
-  vertical-align: middle;
-
-  font-family: Roboto;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
-
-.top_menu a:hover{
-  color:  #654321;
-}
-
-.logo{
-  max-width: 1200px;
-  margin: 0 auto;
-
-  width: 10vw;
-  height: 5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
-
-.logo h1{
   
-  font-family: Amatic SC;
-  font-weight: 100;
-  font-style: cursive;
-  font-size: 50px;
- color: rgb(101, 67, 33);
- text-shadow: 1px 1px 1px #e6ddd6;
-}
-
-
-   
-   
    }
 
 header{
   margin-top: 15px;
-     margin-right: 5vw;
+     margin-right: auto;
      margin-left: 10vw;
   display: flex;
   justify-content: center;

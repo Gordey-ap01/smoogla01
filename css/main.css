@@ -8,7 +8,7 @@
 
 body {
   /* Location of the image */
-  background-image: url(../img/nbg1.jpeg);
+  background-image: url(../img/smooglaps.jpg);
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -73,7 +73,7 @@ header{
   color:  #654321;
 }
 
-.logo{
+/*.logo{
    max-width: 1200px;
    margin: 0 auto;
   width: 100vw;
@@ -93,3 +93,4 @@ header{
  color: rgb(101, 67, 33);
  text-shadow: 1px 1px 1px #e6ddd6;
 }
+*/

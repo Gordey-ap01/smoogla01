@@ -105,13 +105,13 @@ header{
 }
 
 .top_menu li{
-  margin-right: 50px;
+  margin-right: 5vw;
   vertical-align: middle;
 
   display: inline-block;
 }
 .top_menu a{
-  margin-right: 50px;
+  margin-right: 5vw;
   vertical-align: middle;
 
   font-family: Roboto;

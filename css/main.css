@@ -1,0 +1,90 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+
+
+
+body {
+  /* Location of the image */
+  background-image: url(../img/nbg1.jpeg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+  /*_______________________________________________________*/
+
+  color: white;
+
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../img/nbg1.jpeg);
+  }
+   }
+
+header{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.top_menu li{
+  margin-right: 50px;
+  vertical-align: middle;
+
+  display: inline-block;
+}
+.top_menu a{
+  margin-right: 50px;
+  vertical-align: middle;
+
+  font-family: Roboto;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.top_menu a:hover{
+  color:  #654321;
+}
+
+.logo{
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+.logo h1{
+  
+  font-family: Amatic SC;
+  font-weight: 100;
+  font-style: cursive;
+  font-size: 300px;
+ color: rgb(101, 67, 33);
+ text-shadow: 1px 1px 1px #e6ddd6;
+}
